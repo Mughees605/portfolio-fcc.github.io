@@ -1,0 +1,57 @@
+body{
+    background-color:#fff;
+    font-family: 'Lobster Two', cursive;
+
+}
+/*navigation tabs*/
+.nav-pills{
+    background-color: #000;
+    font-size: 2em;
+}
+/*navigation tabs end*/
+
+/*div page one start*/
+.pageOne{
+    background: url("https://hd.unsplash.com/photo-1429623077761-9635d93ddd02");
+    height: 800px;
+    background-size: cover;
+    color: white;
+    width:100%;
+}
+/*bootstrap crated padding and margin by defalult for h1*/
+.pageOne h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 5em;
+}
+.pageOne .btnList .btn-default{
+    background-color: #000;
+    color:#337ab7;
+    font-size: 2em;
+}
+.pageOne .block{
+    background-color: #000;
+    opacity: 0.7;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+/*I select under page one two divs and set this position*/
+
+.btnList , .block{
+    position: relative;
+    top: 150px;
+    margin: 1%;
+}
+/*page one end*/
+
+/*page two start*/
+.pageTwo{
+    background-image: url("http://il6.picdn.net/shutterstock/videos/5284166/thumb/1.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+/*page two end*/
