@@ -1,6 +1,6 @@
 body{
     background-color:#fff;
-    font-family: 'Lobster Two', cursive;
+font-family: 'Lobster', cursive;
 
 }
 /*navigation tabs*/
@@ -15,6 +15,7 @@ body{
     background: url("https://hd.unsplash.com/photo-1429623077761-9635d93ddd02");
     height: 800px;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
     width:100%;
 }
@@ -49,9 +50,48 @@ body{
 
 /*page two start*/
 .pageTwo{
-    background-image: url("http://il6.picdn.net/shutterstock/videos/5284166/thumb/1.jpg");
+    background-image: url("http://intellectual-sandeep.bizhat.com/wallpapers/linpics/CTRL-TUX-ALT-keyboard-1600x1200black.jpg");
     background-size: cover;
+    background-attachment: fixed;
     height: 800px;
+    background-position: left-bottom;
+}
+.pageTwo h1, .pageThree h1{
+    font-size: 5em;
+    color: #ccc;
+    text-align: center;
+}
+.pageTwo p{
+    font-size: 2.5em;
+    color:#ccc;
+    text-align: center;
 }
 
+.firstPart{
+position: relative;
+top: 220px;
+}
+.secondPart img{
+    text-align: center;
+    height:300px;
+    border-radius: 50%; 
+    position: relative;
+    left: 120px;
+    top: 250px;
+
+}
+/*body .pageTwo{
+    display: none;
+}*/
 /*page two end*/
+
+
+/*page three start*/
+.pageThree{
+    background-image: url('http://www.ravigraphix.com/images/responsive-website-design-services-hyderabad.jpg');
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*page three end*/

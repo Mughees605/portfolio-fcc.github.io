@@ -6,26 +6,26 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <ul class="nav nav-pills">
-        <li><a href="#">About</a></li>
+    <ul class="nav nav-pills navbar-fixed-top">
+        <li><a href="#about" class="sla">About</a></li>
         <li><a href="#">Qualification</a></li>
         <li><a href="#">Contacts</a></li>
         <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Home</a></li>
+        <li><a href="#Home" class="slh">Home</a></li>
     </ul>
 
-    <div class="pageOne">
+    <div class="pageOne" id="Home">
         <div class="block">
             <h1>This is my portfolio</h1>
             <h2>Keep calm and learn Programming</h2>
         </div>
-        <div class="btnList text-center" >
+        <div class="btnList text-center">
             <a href="#" class="btn btn-default">Youtube</a>
             <a href="#" class="btn btn-default">Twitter</a>
             <a href="#" class="btn btn-default">Github</a>
@@ -34,11 +34,63 @@
         </div>
     </div>
 
-    <div class="pageTwo">
-        
+    <div class="pageTwo" id="about">
+        <div class="row">
+            <div class="col-md-6 firstPart">
+                <h1>Hafiz Mughees Siddiqui</h1>
+                <p>I'm a freelance developer based in Karachi, Pakistan, specialising in building web & mobile apps, consider
+                    myself full-stack developer but I tend to work more on the back-end & hybrid mobile apps. I enjoy building
+                    stuff, investigating, exploring and learning new technologies.
+
+                </p>
+            </div>
+            <div class="col-md-6 secondPart">
+                <img src='./myp.jpg'>
+            </div>
+        </div>
+    </div>
+
+    <div class="pageThree">
+        <h1 class="text-center">Portfolio</h1>
+<div class="row">
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="col-sm-6 col-md-2">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
     </div>
     <script src="./jquery/jquery-3.1.0.min.js"></script>
-    <script src="./jquery/main.js"></script>
+  <!--  <script src="./jquery/main.js"></script>-->
 </body>
 
 </html>
