@@ -1,5 +1,5 @@
 body{
-    background-color:#fff;
+    
 font-family: 'Lobster', cursive;
 
 }
@@ -7,17 +7,23 @@ font-family: 'Lobster', cursive;
 .nav-pills{
     background-color: #000;
     font-size: 2em;
+     margin-bottom: 10%;
+
+
 }
 /*navigation tabs end*/
 
 /*div page one start*/
 .pageOne{
-    background: url("https://hd.unsplash.com/photo-1429623077761-9635d93ddd02");
+   // background: url("https://hd.unsplash.com/photo-1429623077761-9635d93ddd02");
     height: 800px;
     background-size: cover;
     background-attachment: fixed;
     color: white;
     width:100%;
+    background-color:#c9302c;
+    
+    
 }
 /*bootstrap crated padding and margin by defalult for h1*/
 .pageOne h1{
@@ -29,6 +35,7 @@ font-family: 'Lobster', cursive;
     background-color: #000;
     color:#337ab7;
     font-size: 2em;
+
 }
 .pageOne .block{
     background-color: #000;
@@ -36,62 +43,38 @@ font-family: 'Lobster', cursive;
     text-align: center;
     padding: 20px;
     width: 50%;
-    margin: 0px auto;
+    margin: 20px auto;
     border-radius: 10px;
 }
 /*I select under page one two divs and set this position*/
 
-.btnList , .block{
-    position: relative;
-    top: 150px;
-    margin: 1%;
-}
+
 /*page one end*/
 
 /*page two start*/
 .pageTwo{
-    background-image: url("http://intellectual-sandeep.bizhat.com/wallpapers/linpics/CTRL-TUX-ALT-keyboard-1600x1200black.jpg");
+    background-color: #ec971f;
+    height: 500px;
     background-size: cover;
-    background-attachment: fixed;
-    height: 800px;
-    background-position: left-bottom;
+    padding: 0px;
 }
-.pageTwo h1, .pageThree h1{
-    font-size: 5em;
-    color: #ccc;
-    text-align: center;
-}
-.pageTwo p{
-    font-size: 2.5em;
-    color:#ccc;
-    text-align: center;
-}
+.about , .img{
 
-.firstPart{
-position: relative;
-top: 220px;
+    width: 70%;
+    font-size: 2.0em;
+    margin:50px auto;
 }
-.secondPart img{
-    text-align: center;
-    height:300px;
-    border-radius: 50%; 
-    position: relative;
-    left: 120px;
-    top: 250px;
-
+img{
+    display: inline-block;
+    margin-bottom: 40px;
+    border-radius: 10%;
+    height: 300px;
+    
 }
-/*body .pageTwo{
-    display: none;
-}*/
 /*page two end*/
 
 
 /*page three start*/
-.pageThree{
-    background-image: url('http://www.ravigraphix.com/images/responsive-website-design-services-hyderabad.jpg');
-    height: 800px;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 
 /*page three end*/
