@@ -1,6 +1,7 @@
 body{
     
 font-family: 'Lobster', cursive;
+background-color:black;
 
 }
 /*navigation tabs*/
@@ -15,7 +16,7 @@ font-family: 'Lobster', cursive;
 
 /*div page one start*/
 .pageOne{
-   // background: url("https://hd.unsplash.com/photo-1429623077761-9635d93ddd02");
+   background-image: url('http://www.pixelhub.me/pixelhub1/images/uploads/1385467739background_portfolio.jpg');
     height: 800px;
     background-size: cover;
     background-attachment: fixed;
@@ -53,10 +54,13 @@ font-family: 'Lobster', cursive;
 
 /*page two start*/
 .pageTwo{
+    background-image: url('http://rajdeepsekhon.com/wp-content/uploads/2016/03/portfolio-background.jpg');
     background-color: #ec971f;
-    height: 500px;
+
     background-size: cover;
     padding: 0px;
+    background-attachment: fixed;
+    color: white;
 }
 .about , .img{
 
@@ -64,7 +68,7 @@ font-family: 'Lobster', cursive;
     font-size: 2.0em;
     margin:50px auto;
 }
-img{
+.col-md-6 img{
     display: inline-block;
     margin-bottom: 40px;
     border-radius: 10%;
@@ -75,6 +79,22 @@ img{
 
 
 /*page three start*/
+.pageThree{
+    background-color: #d733ff;
+    background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/black-wallpaper-10.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+.pageThree img{
+    margin: 5px;
+    border-radius: 5%;
 
+    
+}
+.pageThree h1{
+    font-size: 5em;
+    color: #fff;
+}
 
 /*page three end*/
